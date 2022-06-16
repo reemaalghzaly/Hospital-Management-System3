@@ -5,7 +5,8 @@
 <link rel="stylesheet" href="css/bootstrap.min.css">
 
 <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4645776290781377"
+    crossorigin="anonymous"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <link href="css/menu.css" rel="stylesheet" type="text/css" />
 <link href="css/stylelog.css" type="text/css" rel="stylesheet" />
