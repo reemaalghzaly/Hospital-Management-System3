@@ -1,4 +1,3 @@
-<?
 <?php include 'connectt.php';
 $usernme=$dbhandle->real_escape_string($_POST["unem"]);
 

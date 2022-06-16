@@ -16,5 +16,5 @@
     
 
     </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+  <!-- /.container-fluid -->
 </nav>
