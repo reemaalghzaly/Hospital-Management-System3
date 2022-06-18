@@ -102,7 +102,7 @@ header("Location: supadminopsm.php");
   <dd style="font-size:12px;"><input pattern="[A-Za-z]{1,30}" title="Use Only Letters" name="pfname" id="patifn" style="margin:5px" class="form-control" type="text" value="<?php echo $row["smfname"]; ?>"></dd>
 
   <dt style="font-size:12px;"><strong>Staff Memeber Last Name : </strong> </dt>
-  <dd style="font-size:12px;"><input pattern="[A-Za-z]{1,30}" title="Use Only Letters" name="psname" id="patsn"  style="margin:5px" class="form-control" type="text" value=" <?php echo $row["smlname"]; ?>"></dd>
+  <dd style="font-size:12px;"><input pattern="[A-Za-z]{1,30}" title="Use Only Letters" name="psname" id="patsn"  style="margin:5px" class="form-control" type="text" value="<?php echo $row["smlname"]; ?>"></dd>
 
   <dt style="font-size:12px;"><strong>Staff Memeber Birth Day      : </strong></dt>
   <dd style="font-size:12px;"><input required="required" name="pdob" id="db" style="margin:5px" class="form-control" type="date" value="<?php echo $row["smbd"]; ?>"></dd>
