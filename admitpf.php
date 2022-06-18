@@ -47,7 +47,7 @@
 
 <?php
 $id=$_REQUEST['id'];
-$query = "SELECT patient.pet_age,patient.pet_ac,patient.pet_id,patient.pet_fn,patient.pet_sn,patient.pet_con,patient.pet_bg,admit_pet.pet_des,admit_pet.pet_id
+$query = "SELECT admit_pet.admit_petid,admit_pet.admit_name,admit_pet.admit_age,admit_pet.admit_bg,admit_pet.pet_des,admit_pet.pet_id,admit_pet.admit_con,patient.pet_age,patient.pet_ac,patient.pet_id,patient.pet_fn,patient.pet_sn,patient.pet_con,patient.pet_bg,admit_pet.pet_des,admit_pet.pet_id
 FROM admit_pet
 RIGHT JOIN patient
 ON admit_pet.pet_id='".$id."'";
@@ -60,9 +60,9 @@ $row = mysqli_fetch_assoc($result);
 <div align="left">Patient ID:</div>
     <input disabled    value="<?php echo $row["pet_id"]; ?>" style="margin:5px;  border-radius:0px" type="text" class="form-control" placeholder="Doctor ID" >
 <div align="left">Patient Name:</div>
-    <input disabled    value="<?php echo $row["admit_name"]; ?> <?php echo $row["pet_sn"]; ?>" style="margin:5px;  border-radius:0px" type="text" class="form-control" placeholder="Doctor Name">
+    <input disabled    value="<?php echo $row["admit_name"]; ?>" style="margin:5px;  border-radius:0px" type="text" class="form-control" placeholder="Doctor Name">
 <div align="left">Patient Mobile:</div>
-    <input disabled    value="<?php echo $row["admit_ac"]; ?> <?php echo $row["pet_con"]; ?>" style="margin:5px;  border-radius:0px" type="text" class="form-control" placeholder="Doctor Contact number">
+    <input disabled    value="<?php echo $row["admit_con"]; ?>" style="margin:5px;  border-radius:0px" type="text" class="form-control" placeholder="Doctor Contact number">
 <div align="left">Patient Blood Group:</div>
     <input disabled    value="<?php echo $row["admit_bg"]; ?>" style="margin:5px;  border-radius:0px" type="text" class="form-control" placeholder="Doctor Address">
 <div align="left">Patient Desease:</div>
