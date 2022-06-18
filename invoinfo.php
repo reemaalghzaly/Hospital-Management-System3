@@ -56,8 +56,8 @@
 <tr>
 <th><strong>S.No</strong></th>
 <th><strong>Invoice .No</strong></th>
-<th><strong>Date</strong></th>
 <th><strong>Patient Reg No</strong></th>
+<th><strong>Date</strong></th>
 <th><strong>Patient Name</strong></th>
 <th><strong>Doctor Charge</strong></th>
 <th><strong>Medecine Charge</strong></th>
