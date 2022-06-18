@@ -90,7 +90,7 @@ if (isset($_POST['filter'])){
 <br>
 
   <dt style="font-size:12px;"><strong>Patient Last Name : </strong> </dt>
-  <dd style="font-size:12px;"><input name="psname" id="patsn" disabled style="margin:5px" class="form-control" type="text" value=" <?php echo $row["smlname"]; ?>"></dd>
+  <dd style="font-size:12px;"><input name="psname" id="patsn" disabled style="margin:5px" class="form-control" type="text" value="<?php echo $row["smlname"]; ?>"></dd>
 
   <dt style="font-size:12px;"><strong>Birth Day      : </strong></dt>
   <dd style="font-size:12px;"><input name="pdob" id="db" disabled style="margin:5px" class="form-control" type="date" value="<?php echo $row["smbd"]; ?>"></dd>
