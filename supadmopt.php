@@ -193,7 +193,7 @@ document.write('<?php echo $regs; ?>');</script> </center>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/hidenv.js"></script>
 </body>
-<footer class="foot2">
+<!-- <footer class="foot2">
     <div class="container-fluid">
     <div class="row">
         <div style="padding: 10px;" class="col-md-10 col-md-push-2">
@@ -201,6 +201,6 @@ Copyright © 2016 Jayendra Matarage. All rights reserved.
         </div>
     </div>
     </div>
-  </footer>
+  </footer> -->
 </html>
 
