@@ -60,15 +60,15 @@ $row = mysqli_fetch_assoc($result);
 <div align="left">Patient ID:</div>
     <input disabled    value="<?php echo $row["pet_id"]; ?>" style="margin:5px;  border-radius:0px" type="text" class="form-control" placeholder="Doctor ID" >
 <div align="left">Patient Name:</div>
-    <input disabled    value="<?php echo $row["pet_fn"]; ?> <?php echo $row["pet_sn"]; ?>" style="margin:5px;  border-radius:0px" type="text" class="form-control" placeholder="Doctor Name">
+    <input disabled    value="<?php echo $row["admit_name"]; ?> <?php echo $row["pet_sn"]; ?>" style="margin:5px;  border-radius:0px" type="text" class="form-control" placeholder="Doctor Name">
 <div align="left">Patient Mobile:</div>
-    <input disabled    value="<?php echo $row["pet_ac"]; ?> <?php echo $row["pet_con"]; ?>" style="margin:5px;  border-radius:0px" type="text" class="form-control" placeholder="Doctor Contact number">
+    <input disabled    value="<?php echo $row["admit_ac"]; ?> <?php echo $row["pet_con"]; ?>" style="margin:5px;  border-radius:0px" type="text" class="form-control" placeholder="Doctor Contact number">
 <div align="left">Patient Blood Group:</div>
-    <input disabled    value="<?php echo $row["pet_bg"]; ?>" style="margin:5px;  border-radius:0px" type="text" class="form-control" placeholder="Doctor Address">
+    <input disabled    value="<?php echo $row["admit_bg"]; ?>" style="margin:5px;  border-radius:0px" type="text" class="form-control" placeholder="Doctor Address">
 <div align="left">Patient Desease:</div>
         <input disabled    value="<?php echo $row["pet_des"]; ?>" style="margin:5px;  border-radius:0px" type="text" class="form-control" placeholder="Doctor Address">
 <div align="left">Patient Age:</div>
-                <input disabled    value="<?php echo $row["pet_age"]; ?>" style="margin:5px;  border-radius:0px" type="text" class="form-control" placeholder="Doctor Address">
+                <input disabled    value="<?php echo $row["admit_age"]; ?>" style="margin:5px;  border-radius:0px" type="text" class="form-control" placeholder="Doctor Address">
   </form>
 
 <tr><td colspan="2" style="padding:5px">
