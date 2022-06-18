@@ -101,7 +101,7 @@ header("Location: supadminop.php");
   <dd style="font-size:12px;"><input pattern="[A-Za-z]{1,30}" title="Use Only Letters" name="pfname" id="patifn" style="margin:5px" class="form-control" type="text" value="<?php echo $row["pet_fn"]; ?>"></dd>
 
   <dt style="font-size:12px;"><strong>Patient Last Name : </strong> </dt>
-  <dd style="font-size:12px;"><input pattern="[A-Za-z]{1,30}" title="Use Only Letters" name="psname" id="patsn" style="margin:5px" class="form-control" type="text" value=" <?php echo $row["pet_sn"]; ?>" </dd>
+  <dd style="font-size:12px;"><input pattern="[A-Za-z]{1,30}" title="Use Only Letters" name="psname" id="patsn" style="margin:5px" class="form-control" type="text" value="<?php echo $row["pet_sn"]; ?>" </dd>
 
   <dt style="font-size:12px;"><strong>Birth Day      : </strong></dt>
   <dd style="font-size:12px;"><input required="required" name="pdob" id="db"  style="margin:5px" class="form-control" type="date" value="<?php echo $row["pet_bd"]; ?>"></dd>
