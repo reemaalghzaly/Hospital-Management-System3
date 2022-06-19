@@ -30,10 +30,3 @@
         </div>
         </div>
     </div>
-   <!-- <div class="container-fluid foot2">
-    <div class="row">
-        <div style="padding: 10px;" class="col-md-10 col-md-push-2">
-Copyright © 2016 Jayendra Matarage. All rights reserved.
-        </div>
-    </div>
-    </div> -->
